@@ -1,19 +1,19 @@
 {
-  "manifest_version": 2,
-  "name": "List Filter",
+  "manifest_version": 3,
+  "name": "MXL Web",
   "version": "1.0",
-  "description": "Customize filters for itemized lists.",
+  "description": "Enhances the MXL website experience.",
   "permissions": ["activeTab", "storage"],
-  "browser_action": {
-    "default_popup": "popup.html",
+  "action": {
+    "default_popup": "./popup/popup.html",
     "default_icon": {
-      "48": "icon48.png"
+      "48": "./images/icon48.png"
     }
   },
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["content.js"]
+      "js": ["./scripts/content.js"]
     }
   ]
 }

@@ -1,0 +1,28 @@
+body {
+    width: 300px;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #f8f8f8;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    padding: 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+nav ul li:hover {
+    background-color: #ddd;
+    transform: scale(1.1);
+}
