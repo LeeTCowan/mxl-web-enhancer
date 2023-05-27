@@ -1,0 +1,50 @@
+[
+    {
+      "name": "Guide Center",
+      "url": "https://forum.median-xl.com/viewforum.php?f=40",
+      "sublinks": [
+        {
+          "name": "How to Survive Hardcore",
+          "url": "https://forum.median-xl.com/viewtopic.php?t=76278"
+        },
+        {
+          "name": "Starter Tier List",
+          "url": "https://forum.median-xl.com/viewtopic.php?f=40&t=78735"
+        },
+        {
+          "name": "Phys Werewolf Guide",
+          "url": "https://forum.median-xl.com/viewtopic.php?f=40&t=78976"
+        },
+        {
+          "name": "Cold Werewolf Guide",
+          "url": "https://forum.median-xl.com/viewtopic.php?f=40&t=58185"
+        },
+        {
+          "name": "Summon Barb Guide",
+          "url": "https://forum.median-xl.com/viewtopic.php?f=40&t=79260"
+        },
+        {
+          "name": "Stormzon Guide",
+          "url": "https://forum.median-xl.com/viewtopic.php?f=40&t=78578"
+        }
+      ]
+    },
+    {
+      "name": "Trade Center",
+      "url": "https://forum.median-xl.com/tradegold.php"
+    },
+    {
+      "name": "Not Armory",
+      "url": "https://tsw.vn.cz/",
+      "sublinks": [
+        {
+          "name": "Account",
+          "url": "https://tsw.vn.cz/acc"
+        },
+        {
+          "name": "Milestones",
+          "url": "https://tsw.vn.cz/ms/"
+        }
+      ]
+    }
+]

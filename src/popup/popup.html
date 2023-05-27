@@ -5,10 +5,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="popup.css">
-  <link rel="stylesheet" href="tab-content/forum-tab/forums.css">
-  <link rel="stylesheet" href="tab-content/item-tab/items.css">
+  <!-- <link rel="stylesheet" href="tab-content/forums-tab/forums.css"> -->
+  <!-- <link rel="stylesheet" href="tab-content/items-tab/items.css"> -->
 
+  <!-- <script> window.mxlWeb = window.mxlWeb || {}; </script> -->
+
+  <script src="popup-utils.js" defer></script>
+  <script src="content-messenger.js" defer></script>
   <script src="popup.js" defer></script>
+  <!-- <script src="./tab-content/items-tab/items.js" defer></script> -->
 </head>
 
 <body>
@@ -17,15 +22,11 @@
       <li id="navForums">Forums</li>
       <li id="navItems">Items</li>
       <li id="navDocs">Docs</li>
-      <li id="navChangelog">Changelog</li>
+      <li id="navChangelogs">Changelog</li>
     </ul>
   </nav>
 
-  <div id="tabContentContainer">
-    <h1>List Filter</h1>
-    <input id="filterInput" type="text" placeholder="Filter text...">
-    <button id="applyFilter">Apply Filter</button>
-    <button id="resetFilter">Reset Filter</button>
+  <div id="popupTabsContainer">
   </div>
 
 </body>
